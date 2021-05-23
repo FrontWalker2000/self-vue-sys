@@ -1,6 +1,6 @@
 # self-vue-sys
 
-> 前端代码 ｜ 服务端（nodejs）代码
+> 前端代码 ｜ <a href="https://github.com/FrontWalker2000/node-sys" alt="nodejs+mysql">服务端（nodejs）代码</a>
 
 # 准备工作
 > 需在本地安装 Node.js
