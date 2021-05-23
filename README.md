@@ -1,21 +1,32 @@
 # self-vue-sys
 
-> vue-simple
+> 前端代码 ｜ 服务端（nodejs）代码
 
-## Build Setup
+# 准备工作
+> 需在本地安装 Node.js
 
-``` bash
-# install dependencies
-npm install
+## 功能 ##
+- [x] Element UI
+- [x] 登录
+- [x] token
+- [x] echars
+- [x] markdown
+- [x] mysql
+- [x] icon
+- [x] table
+## 安装步骤 ##
+	https://github.com/FrontWalker2000/self-vue-sys.git     // 把项目下载到本地
+	cd self-vue-sys   // 进入项目目录
+	npm install         // 安装项目依赖，等待安装完成之后
 
-# serve with hot reload at localhost:8080
-npm run dev
+## 本地开发 ##
+	// 开启前端服务器，浏览器访问 http://localhost:8080，在根目录下执行下面命令
+	npm run dev
 
-# build for production with minification
-npm run build
+## 连接服务端 ##
+  > 进入config/env.js 配置通信地址
 
-# build for production and view the bundle analyzer report
-npm run build --report
-```
+## 构建生产 ##
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+	// 执行构建命令，生成的dist文件夹放在服务器下即可访问
+	npm run build
