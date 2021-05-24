@@ -2,6 +2,10 @@
 
 > 前端代码 ｜ <a href="https://github.com/FrontWalker2000/node-sys" alt="nodejs+mysql">服务端（nodejs）代码</a>
 
+# 展示
+<img src="https://raw.githubusercontent.com/FrontWalker2000/self-vue-sys/master/src/assets/images/dis_01.jpeg">
+<img src="https://raw.githubusercontent.com/FrontWalker2000/self-vue-sys/master/src/assets/images/dis_02.jpeg">
+
 # 准备工作
 > 需在本地安装 Node.js
 
