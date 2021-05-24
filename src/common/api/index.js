@@ -1,5 +1,5 @@
-import login from "./login";
+import user from "./login";
 
 export default {
-  login
+  user
 }

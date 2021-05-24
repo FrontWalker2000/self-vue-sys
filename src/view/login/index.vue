@@ -32,7 +32,7 @@ export default {
   methods: {
     // 登陆
     async login() {
-      let res = await this.$api.login.log(this.formData)
+      let res = await this.$api.user.login(this.formData)
       if (res.status === 0) {
         this.$plugin.store.set('token', res.data)
         this.$router.replace('/home')

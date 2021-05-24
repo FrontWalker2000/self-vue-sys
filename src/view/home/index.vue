@@ -36,7 +36,7 @@ export default {
   },
   methods: {
     async userInfo() {
-      let res = await this.$api.login.getUserInfo()
+      let res = await this.$api.user.getUserInfo()
       if (res.status === 0) {
         this.$plugin.store.set('token', res.data)
         this.$router.replace('/home')

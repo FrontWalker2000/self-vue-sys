@@ -4,9 +4,9 @@
 
 import axios from '../request'
 
-const login = {
+const user = {
   // post提交
-  async log(params) {
+  async login(params) {
     let res
     try {
       res = await axios.post('/users/login', params)
@@ -26,4 +26,4 @@ const login = {
   }
 }
 
-export default login
+export default user
