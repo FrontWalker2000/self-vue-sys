@@ -76,8 +76,6 @@ instance.interceptors.request.use(
     // 而后我们可以在响应拦截器中，根据状态码进行一些统一的操作。
     let token = vue.prototype.$plugin.store.get('token')
     token && (config.headers.Authorization = token);
-    console.log(token)
-    debugger
     return config;
   },
   error => Promise.error(error))
