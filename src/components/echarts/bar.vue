@@ -1,5 +1,5 @@
 <template>
-  <div class="bar_cont">
+  <div class="bar_cont box_shadow">
     <div id="myChart" ref="myChart"></div>
   </div>
 
@@ -43,7 +43,6 @@ export default {
   background: #ffffff;
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 2px 6px 15px 0 rgb(69 65 78 / 10%);
   border: 0;
   width: 48%;
   #myChart {

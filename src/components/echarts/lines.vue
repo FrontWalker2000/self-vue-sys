@@ -1,6 +1,6 @@
 <template>
   <div class="lines_cont">
-    <div :id="id" ref="myChart"></div>
+    <div :id="id" class="box_shadow" ref="myChart"></div>
   </div>
 
 </template>
@@ -111,7 +111,6 @@ export default {
     height: 120px;
     margin: 20px auto;
     padding: 10px;
-    box-shadow: 2px 6px 15px 0 rgb(69 65 78 / 10%);
     border-radius: 6px;
     background: #ffffff;
   }
