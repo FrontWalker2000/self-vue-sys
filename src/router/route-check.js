@@ -1,7 +1,6 @@
+let NProgress = require('nprogress')
 export default function routeHandler(router, Vue) {
-  console.log(router)
-  debugger
-  router.beforeEach(async(to, from, next) => {
+  router.beforeEach(async (to, from, next) => {
     // 从本地中取得token
     const hasToken = Vue.prototype.$plugin.store.get('token')
 
@@ -9,7 +8,7 @@ export default function routeHandler(router, Vue) {
     if (hasToken) {
       // 并且要前往的路径是'/login'  则返回 '/'
       if (to.path === '/login') {
-        next({ path: '/' })
+        next({path: '/'})
       } else {
         // todo
         next()
@@ -41,10 +40,14 @@ export default function routeHandler(router, Vue) {
       }
     } else {
       // todo
-      // 没有token 也就是没有登陆的情况下
-      next(`/login?redirect=${to.path}`)
+      // 没有token 也就是没有登陆的情况下防止死循环
+      if (to.path === '/login') {
+        next()
+      } else {//不然就跳转到登录;
+        next(`/login?redirect=${to.path}`)
+      }
       NProgress.done()
-      // 判断是否是白名单(也就是说不需要登陆就可以访问的路由)
+      // 判断是否是白名单(不需要登陆就可以访问的路由)
       // if (whiteList.indexOf(to.path) !== -1) {
       //   next()
       // } else {
