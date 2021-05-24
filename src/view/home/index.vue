@@ -30,7 +30,19 @@ import linesEcharts from '../../components/echarts/lines'
 import tableMap from '../../components/table/tableMap'
 export default {
   name: 'home',
-  components: {lineEcharts, barEcharts, radarEcharts, mapEcharts, tableMap, linesEcharts}
+  components: {lineEcharts, barEcharts, radarEcharts, mapEcharts, tableMap, linesEcharts},
+  mounted() {
+    this.userInfo()
+  },
+  methods: {
+    async userInfo() {
+      let res = await this.$api.login.getUserInfo()
+      if (res.status === 0) {
+        this.$plugin.store.set('token', res.data)
+        this.$router.replace('/home')
+      }
+    },
+  }
 }
 </script>
 

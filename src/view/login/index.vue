@@ -37,7 +37,7 @@ export default {
         this.$plugin.store.set('token', res.data)
         this.$router.replace('/home')
       }
-    },
+    }
   }
 }
 </script>

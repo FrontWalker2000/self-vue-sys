@@ -15,8 +15,14 @@ const login = {
     }
     return res
   },
-  getUserInfo() {
-    console.log('user')
+  async getUserInfo() {
+    let res
+    try {
+      res = await axios.post('/users/info')
+    } catch (e) {
+      console.log(e)
+    }
+    return res
   }
 }
 
