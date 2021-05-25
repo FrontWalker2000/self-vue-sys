@@ -182,6 +182,9 @@ export default {
       justify-content: space-between;
       align-items: center;
     }
+    .item:hover {
+      background: #e7f1ff;
+    }
     .icon {
       color: #8d9498;
       margin-right: 15px;
@@ -202,7 +205,7 @@ export default {
         white-space: nowrap;
       }
     }
-    .active {
+    .active, .active:hover {
       background: #1572e8;
       color: #f7f9fa;
       font-weight: bold;
