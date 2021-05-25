@@ -337,7 +337,6 @@ export default {
     background: #ffffff;
     box-shadow: 4px 4px 10px rgb(69 65 78 / 6%);
     margin-right: 20px;
-    border-radius: 6px;
     .hljs-string {
       color: #756bb1;
     }
@@ -357,7 +356,6 @@ export default {
   ul.icon-list {
     overflow: hidden;
     list-style: none;
-    border-radius: 6px;
     margin-right: 20px;
   }
 

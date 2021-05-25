@@ -95,14 +95,8 @@ export default {
 }
 
 </script>
-<style lang="less">
-  canvas {
-    border-radius: 6px;
-  }
-</style>
 <style lang="less" scoped>
 .lines_cont {
-  border-radius: 10px;
   border: 0;
   width: 32%;
   #line1,#line2,#line3 {
@@ -111,7 +105,6 @@ export default {
     height: 120px;
     margin: 20px auto;
     padding: 10px;
-    border-radius: 6px;
     background: #ffffff;
   }
 }

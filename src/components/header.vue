@@ -101,7 +101,6 @@ export default {
         height: 42px;
         width: 45%;
         position: relative;
-        border-radius: 5px;
         display: flex;
         align-items: center;
         padding: 0 10px;

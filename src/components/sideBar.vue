@@ -206,7 +206,6 @@ export default {
       background: #1572e8;
       color: #f7f9fa;
       font-weight: bold;
-      border-radius: 10px;
       .icon {
         color: #f7f9fa;
       }

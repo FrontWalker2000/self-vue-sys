@@ -218,7 +218,6 @@ export default {
 <style scoped lang="less">
 .article_cont {
   background: #ffffff;
-  border-radius: 8px;
   padding: 20px;
   margin: 20px 20px 0 0;
 }

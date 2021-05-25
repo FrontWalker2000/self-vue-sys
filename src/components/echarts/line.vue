@@ -51,10 +51,6 @@ export default {
               color: '#0f375f' // 0% 处的颜色
             },
             {
-              offset: 0.5,
-              color: '#145596' // 0% 处的颜色
-            },
-            {
               offset: 1,
               color: '#0f375f' // 100% 处的颜色
             }
@@ -152,8 +148,7 @@ export default {
 <style lang="less" scoped>
 .line_cont {
   background: #ffffff;
-  padding: 20px;
-  border-radius: 10px;
+  padding: 10px;
   border: 0;
   margin-bottom: 20px;
 

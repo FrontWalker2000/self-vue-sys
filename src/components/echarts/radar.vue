@@ -66,12 +66,10 @@ export default {
 <style lang="less" scoped>
 .radar_cont {
   background: #ffffff;
-  padding: 20px;
-  border-radius: 10px;
   border: 0;
-  width: 48%;
+  width: 49%;
   #radarChart {
-    width: 95%;
+    width: 100%;
     height: 260px;
     margin: 20px auto;
     background: #ffffff;

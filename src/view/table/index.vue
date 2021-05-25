@@ -166,7 +166,6 @@ export default {
       background: #ffffff;
       padding: 10px;
       margin-top: 20px;
-      border-radius: 8px;
       box-shadow: 4px 4px 10px rgb(69 65 78 / 6%);
       .gu-ding-lie {
         font-weight: 400;
