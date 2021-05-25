@@ -10,7 +10,7 @@ export default function routeHandler(router, Vue) {
       if (to.path === '/login') {
         next({path: '/'})
       } else {
-        // todo
+        // 菜单权限待补充 todo yjl
         next()
         // 从store中取得用户的 roles, 也就是用户的权限 并且用户的权限数组必须有一个以上
         // const hasRoles = store.getters.roles && store.getters.roles.length > 0

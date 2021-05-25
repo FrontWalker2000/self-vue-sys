@@ -1,14 +1,14 @@
 <template>
   <div class="home_cont">
     <div class="cont_des box_shadow">
-      <span class="s1"><i>Welcome</i> back, Yangjialin!</span>
-      <span class="s2">Yesterday I was clever, so I wanted to change the world. Today I am wise, so I am changing myself.</span>
+      <span class="s1"><i>欢迎</i>回来, Yangjialin!</span>
+      <span class="s2">昨天我很聪明，所以我想改变世界。今天我很聪明，所以我在改变自己。</span>
     </div>
     <div class="cont_info">
       <div class="info_item box_shadow">
         <div class="item_text">
-          <span class="s1">Overall statistics</span>
-          <span class="s2">Daily information about statistics in system</span>
+          <span class="s1">同期数据</span>
+          <span class="s2">系统统计日常信息</span>
         </div>
         <div class="item_list">
           <div class="list">
