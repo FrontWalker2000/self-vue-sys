@@ -185,7 +185,7 @@ import 'mavon-editor/dist/css/index.css'
 // 解析makeDown
 import marked from 'marked'
 
-//基本引入 高亮所有语言方式1
+//基本引入 高亮所有语言方式
 import hljs from 'highlight.js';
 
 export default {
