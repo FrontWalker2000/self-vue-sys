@@ -5,6 +5,7 @@ import Home from '@/view/home'
 import Icon from '@/view/icon/icon'
 import Article from '@/view/article'
 import Table from '@/view/table'
+import Echarts from '@/view/echarts'
 import MarkDown from '@/view/markDown'
 import routes from "./routes";
 import routeHandler from './route-check'
@@ -43,6 +44,11 @@ const router = new Router({
           path: '/table',
           name: 'table',
           component: Table
+        },
+        {
+          path: '/echarts',
+          name: 'echarts',
+          component: Echarts
         },
       ]
     },

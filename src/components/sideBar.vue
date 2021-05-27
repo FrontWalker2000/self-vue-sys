@@ -149,7 +149,7 @@ export default {
   z-index: 1000;
   color: #fff;
   font-weight: 200;
-  background: #fff;
+  background: var(--main-bg-color-default);
   box-shadow: 4px 4px 10px rgb(69 65 78 / 6%);
   overflow-y: scroll;
 
