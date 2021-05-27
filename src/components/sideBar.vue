@@ -57,7 +57,8 @@ export default {
         {
           name: '文章(article)',
           label: 'article',
-          icon: 'el-icon-reading'
+          icon: 'el-icon-reading',
+          isShow: false,
         },
         {
           name: '组件(components)',
@@ -121,9 +122,16 @@ export default {
         item.isShow = !item.isShow
         return;
       }
+      item.isShow === false && this.setOtherTabHide()
       if (this.$route.name === item.label) return
       this.selected = item.label
       this.$router.push(item.label)
+    },
+    // 设置其余tab的hide
+    setOtherTabHide() {
+      this.tabs.forEach(item => {
+        item.isShow = false
+      })
     }
   }
 }
