@@ -6,8 +6,7 @@
 <img width="80%" src="https://raw.githubusercontent.com/FrontWalker2000/self-vue-sys/master/src/assets/images/dis_2.jpg">
 <br/>
 <img width="80%" src="https://raw.githubusercontent.com/FrontWalker2000/self-vue-sys/master/src/assets/images/dis_1.jpg">
-<img width="80%" src="https://raw.githubusercontent.com/FrontWalker2000/self-vue-sys/master/src/assets/images/self-vue-sys.jpg">
-
+<img width="80%" src="https://raw.githubusercontent.com/FrontWalker2000/self-vue-sys/master/src/assets/images/self-vue-sys.png">
 # 准备工作
 > 需在本地安装 Node.js
 
