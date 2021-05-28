@@ -41,7 +41,7 @@ exports.cssLoaders = function (options) {
         })
       })
     }
-    // 全局引入less，即可在相应的组件或.vue文件见中使用
+    // 全局引入less，即可在相应的组件或.vue文件见中使用 前提引入style-resources-loader  node包
     if (loader === 'less') {
       loaders.push({
         loader: 'style-resources-loader',
