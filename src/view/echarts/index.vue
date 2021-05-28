@@ -98,6 +98,20 @@ export default {
       },
     }
   },
+  mounted() {
+    let res = this.a(1,1,1)
+    console.log(res, 'res')
+  },
+  methods: {
+    side(arr) {
+      arr[0] = arr[2]
+    },
+    a(a,b,c=3) {
+      c=10
+      this.side(arguments)
+      return a+b+c
+    }
+  }
 }
 </script>
 

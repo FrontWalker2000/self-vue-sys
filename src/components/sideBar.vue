@@ -95,6 +95,11 @@ export default {
           ]
         },
         {
+          name: '面试题(interview)',
+          label: 'interview',
+          icon: 'el-icon-document-copy'
+        },
+        {
           name: '主题(theme)',
           label: 'theme',
           icon: 'el-icon-s-platform'
