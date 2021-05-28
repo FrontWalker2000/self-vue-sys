@@ -41,7 +41,15 @@ exports.cssLoaders = function (options) {
         })
       })
     }
-
+    // 全局引入less，即可在相应的组件或.vue文件见中使用
+    if (loader === 'less') {
+      loaders.push({
+        loader: 'style-resources-loader',
+        options: {
+          patterns: path.resolve(__dirname, '../src/assets/style/common/index.less')
+        }
+      })
+    }
     // Extract CSS when that option is specified
     // (which is the case during production build)
     if (options.extract) {

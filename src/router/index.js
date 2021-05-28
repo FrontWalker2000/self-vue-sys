@@ -8,6 +8,7 @@ import Table from '@/view/table'
 import Upload from '@/view/upload'
 import Echarts from '@/view/echarts'
 import MarkDown from '@/view/markDown'
+import Theme from '@/view/theme'
 import routes from "./routes";
 import routeHandler from './route-check'
 
@@ -55,6 +56,11 @@ const router = new Router({
           path: '/upload',
           name: 'upload',
           component: Upload
+        },
+        {
+          path: '/theme',
+          name: 'theme',
+          component: Theme
         },
       ]
     },

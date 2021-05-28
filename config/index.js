@@ -27,6 +27,14 @@ module.exports = {
     // If true, eslint errors and warnings will also be shown in the error overlay
     // in the browser.
     showEslintErrorsInOverlay: false,
+    pluginOptions: {
+      "style-resources-loader": {
+        preProcessor: "less",
+
+        patterns: [path.resolve(__dirname, "./src/assets/style/common/index.less")]
+
+      }
+    },
 
     /**
      * Source Maps
