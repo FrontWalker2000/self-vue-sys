@@ -28,7 +28,6 @@
 ## 安装步骤 ##
 
 ``` javascript
-
 	https://github.com/FrontWalker2000/self-vue-sys.git  // 把项目下载到本地
 	cd self-vue-sys   // 进入项目目录
 	npm install       // 安装项目依赖，等待安装完成之后
