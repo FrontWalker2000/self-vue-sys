@@ -26,11 +26,13 @@
             <template slot-scope="scope">
               <el-button
                 size="mini"
-                @click="handleEdit(scope.$index, scope.row)">Edit</el-button>
+                @click="handleEdit(scope.$index, scope.row)">Edit
+              </el-button>
               <el-button
                 size="mini"
                 type="danger"
-                @click="handleDelete(scope.$index, scope.row)">Delete</el-button>
+                @click="handleDelete(scope.$index, scope.row)">Delete
+              </el-button>
             </template>
           </el-table-column>
         </el-table>
@@ -84,6 +86,16 @@
             </template>
           </el-table-column>
         </el-table>
+        <el-pagination
+          class="table_pagination"
+          @size-change="handleSizeChange"
+          @current-change="handleCurrentChange"
+          :current-page="currentPage4"
+          :page-sizes="[10, 20, 30, 40]"
+          :page-size="10"
+          layout="total, sizes, prev, pager, next, jumper"
+          :total="40">
+        </el-pagination>
       </div>
 
     </div>
@@ -116,35 +128,38 @@ export default {
         }
       ],
       search: '',
-      tableBook: [{
-        date: '2016-05-02',
-        name: '王小虎',
-        province: '上海',
-        city: '普陀区',
-        address: '上海市普陀区金沙江路 1518 弄',
-        zip: 200333
-      }, {
-        date: '2016-05-04',
-        name: '王小虎',
-        province: '上海',
-        city: '普陀区',
-        address: '上海市普陀区金沙江路 1517 弄',
-        zip: 200333
-      }, {
-        date: '2016-05-01',
-        name: '王小虎',
-        province: '上海',
-        city: '普陀区',
-        address: '上海市普陀区金沙江路 1519 弄',
-        zip: 200333
-      }, {
-        date: '2016-05-03',
-        name: '王小虎',
-        province: '上海',
-        city: '普陀区',
-        address: '上海市普陀区金沙江路 1516 弄',
-        zip: 200333
-      }]
+      currentPage4: 4,
+      tableBook: [
+        {
+          date: '2016-05-02',
+          name: '王小虎',
+          province: '上海',
+          city: '普陀区',
+          address: '上海市普陀区金沙江路 1518 弄',
+          zip: 200333
+        }, {
+          date: '2016-05-04',
+          name: '王小虎',
+          province: '上海',
+          city: '普陀区',
+          address: '上海市普陀区金沙江路 1517 弄',
+          zip: 200333
+        }, {
+          date: '2016-05-01',
+          name: '王小虎',
+          province: '上海',
+          city: '普陀区',
+          address: '上海市普陀区金沙江路 1519 弄',
+          zip: 200333
+        }, {
+          date: '2016-05-03',
+          name: '王小虎',
+          province: '上海',
+          city: '普陀区',
+          address: '上海市普陀区金沙江路 1516 弄',
+          zip: 200333
+        }
+      ]
     }
   },
   methods: {
@@ -153,7 +168,13 @@ export default {
     },
     handleDelete(index, row) {
       console.log(index, row);
-    }
+    },
+    handleSizeChange(val) {
+      console.log(`每页 ${val} 条`);
+    },
+    handleCurrentChange(val) {
+      console.log(`当前页: ${val}`);
+    },
   }
 }
 </script>
@@ -162,23 +183,30 @@ export default {
 .table_cont {
   .cont_top {
     padding: 20px 20px 0 0;
-    .top_left , .top_right{
+
+    .top_left, .top_right {
       background: #ffffff;
       padding: 10px;
       margin-top: 20px;
       box-shadow: 4px 4px 10px rgb(69 65 78 / 6%);
+
       .gu-ding-lie {
         font-weight: 400;
         color: #1f2f3d;
         font-size: 22px;
         margin: 5px 0 10px;
       }
+
       p {
         font-size: 14px;
         color: #5e6d82;
         line-height: 1.5em;
         padding-bottom: 5px;
       }
+    }
+    .table_pagination {
+      margin-top: 10px;
+      text-align: right;
     }
   }
 }

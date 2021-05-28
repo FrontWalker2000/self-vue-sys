@@ -337,6 +337,9 @@ export default {
     background: #ffffff;
     box-shadow: 4px 4px 10px rgb(69 65 78 / 6%);
     margin-right: 20px;
+    .code {
+      background: #ffffff;
+    }
     .hljs-string {
       color: #756bb1;
     }
