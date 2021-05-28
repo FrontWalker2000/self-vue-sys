@@ -9,6 +9,7 @@ import Upload from '@/view/upload'
 import Echarts from '@/view/echarts'
 import MarkDown from '@/view/markDown'
 import Theme from '@/view/theme'
+import Edit from '@/view/edit'
 import routes from "./routes";
 import routeHandler from './route-check'
 
@@ -61,6 +62,11 @@ const router = new Router({
           path: '/theme',
           name: 'theme',
           component: Theme
+        },
+        {
+          path: '/edit',
+          name: 'edit',
+          component: Edit
         },
       ]
     },
