@@ -18,7 +18,7 @@
 - [x] echarts
 - [x] markdown
 - [x] mysql
--[x] 组件
+- [x] 组件
   - [x] icon
   - [x] table
   - [x] upload
