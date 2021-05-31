@@ -1,5 +1,5 @@
 # self-vue-sys
-> 目前版本属于简易版，目前每周正以3-4次commit，完善加强。
+> 目前版本属于简易版，适合初学者，大佬请绕道；目前每周正以10次commit，完善加强。
 
 > 前端代码 ｜ <a href="https://github.com/FrontWalker2000/node-sys" alt="nodejs+mysql">服务端（nodejs）代码</a>
 # 视频教程
