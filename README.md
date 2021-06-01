@@ -4,7 +4,7 @@
 > 前端代码 ｜ <a href="https://github.com/FrontWalker2000/node-sys" alt="nodejs+mysql">服务端（nodejs）代码</a>
 # 视频教程
 <a href="https://www.zcool.com.cn/work/ZNTMwMzE5MzI=.html" alt="nodejs+mysql">视频教程（1期）</a>
-
+<video src="https://img.zhisheji.com/PTioGDZ6oQs-DBWOOVuptJ1hsTA=/loNaTpH4gESPvtJFjJr4DNtfvauZ" controls="controls"></video>
 # 展示
 <img width="80%" src="https://raw.githubusercontent.com/FrontWalker2000/self-vue-sys/master/src/assets/images/dis_2.jpg">
 <br/>
