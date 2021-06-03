@@ -95,6 +95,12 @@ export default {
           ]
         },
         {
+          name: '插件(plugin)',
+          label: 'plugin',
+          icon: 'el-icon-reading',
+          isShow: false,
+        },
+        {
           name: '面试题(interview)',
           label: 'interview',
           icon: 'el-icon-document-copy'
