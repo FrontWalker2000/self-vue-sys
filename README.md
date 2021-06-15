@@ -3,7 +3,9 @@
 
 > 前端代码 ｜ <a href="https://github.com/FrontWalker2000/node-sys" alt="nodejs+mysql">服务端（nodejs）代码</a>
 # 视频教程
-<a href="https://www.zhisheji.com/yuanchuang/1568437.html" target="_blank" alt="nodejs+mysql">视频教程（1期）</a>
+<a href="https://www.zhisheji.com/yuanchuang/1568437.html" target="_blank" alt="nodejs+mysql">初识self-vue-sys（1期）</a> |
+<a href="https://www.zhisheji.com/yuanchuang/1568437.html" target="_blank" alt="nodejs+mysql">全局插件编写01</a> |
+<a href="https://www.zhisheji.com/yuanchuang/1568437.html" target="_blank" alt="nodejs+mysql">全局插件编写02</a>
 # 展示
 
 <img width="80%" src="https://raw.githubusercontent.com/FrontWalker2000/self-vue-sys/master/src/assets/images/dis_2.jpg">
