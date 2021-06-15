@@ -61,11 +61,11 @@ export default {
   background: rgba(0, 0, 0, 0.6);
   display: flex;
   justify-content: center;
-  z-index: 999;
+  z-index: 9999;
   align-items: center;
 
   .app_cont {
-    width: 84%;
+    width: 60%;
     padding: 50px 40px;
     background: #FFFFFF;
     border-radius: 16px;

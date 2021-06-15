@@ -57,7 +57,7 @@ export default {
   background: rgba(0, 0, 0, 0.6);
   display: flex;
   justify-content: center;
-  z-index: 999;
+  z-index: 9999;
   align-items: flex-end;
 
   .pick_cont {
