@@ -73,7 +73,7 @@ export default {
 
     .cont_title {
       color: #252627;
-      font-size: 34px;
+      font-size: 28px;
       text-align: center;
       line-height: 1.7;
       padding: 0 40px;
@@ -87,9 +87,9 @@ export default {
       padding-top: 60px;
 
       span {
-        width: 45%;
+        width: 40%;
         height: 78px;
-        font-size: 30px;
+        font-size: 24px;
         border-radius: 40px;
         display: flex;
         align-items: center;

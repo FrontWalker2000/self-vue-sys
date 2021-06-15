@@ -16,7 +16,7 @@
 export default {
   data() {
     return {
-      // 显示model　
+      // 显示model
       modelShow: false,
       // 显示文本/支持dom
       modelText: '',
@@ -36,6 +36,7 @@ export default {
       document.body.style.cssText += "overflow: auto"
       this.modelShow = false
     },
+    // 处理回调
     handler(item) {
       item.fn && typeof item.fn === 'function' && item.fn()
       this.hideToast()
@@ -89,9 +90,9 @@ export default {
         width: 100%;
         height: 100%;
         span {
-          height: 110px;
+          height: 80px;
           width: 100%;
-          font-size: 32px;
+          font-size: 24px;
           display: flex;
           align-items: center;
           justify-content: center;
@@ -101,9 +102,9 @@ export default {
       }
 
       .close {
-        height: 110px;
+        height: 100px;
         width: 100%;
-        font-size: 32px;
+        font-size: 24px;
         display: flex;
         align-items: center;
         justify-content: center;
