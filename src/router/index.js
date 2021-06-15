@@ -10,6 +10,7 @@ import Echarts from '@/view/echarts'
 import MarkDown from '@/view/markDown'
 import Theme from '@/view/theme'
 import Edit from '@/view/edit'
+import Plugin from '@/view/plugin'
 import routes from "./routes";
 import routeHandler from './route-check'
 
@@ -67,6 +68,11 @@ const router = new Router({
           path: '/edit',
           name: 'edit',
           component: Edit
+        },
+        {
+          path: '/plugin',
+          name: 'plugin',
+          component: Plugin
         },
       ]
     },

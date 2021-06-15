@@ -6,7 +6,7 @@ import http from './common/api'
 import 'element-ui/lib/theme-chalk/index.css'
 import echarts from './plugin/echarts' //引入echarts
 import plugin from './plugin/index'
-
+import './components/plugin'
 Vue.config.productionTip = false
 Vue.use(element)
 Vue.prototype.$api = http
