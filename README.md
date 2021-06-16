@@ -1,11 +1,11 @@
 # self-vue-sys
 > 目前版本属于简易版，适合初学者，我会逐渐改写里面的组件/插件/类库，大佬请绕道；目前每周正以10次commit，完善加强。
 
-> 前端代码 ｜ <a href="https://github.com/FrontWalker2000/node-sys" alt="nodejs+mysql">服务端（nodejs）代码</a>
+> <a>前端代码</a> ｜ <a href="https://github.com/FrontWalker2000/node-sys" alt="nodejs+mysql">服务端（nodejs）代码</a>
 # 初衷及愿景
   > - [x] 零成本、易上手、快且高效贴合
   > - [x] 希望以此项目做二次开发，插件、组件，模块任意搭配，完成合乎您心意的可视化/后台/管理系统/桌面应用
-  > - [x] 能够零成本上手，加上视频观看，满足日常企业级开发
+  > - [x] 能够零成本使用，加上视频观看，满足日常企业级二次开发
   > - [x] 能够建立各自的前后端项目能力
 # 视频教程
 <a href="https://www.zhisheji.com/yuanchuang/1568437.html" target="_blank" alt="nodejs+mysql">初识self-vue-sys（1期）</a> |
@@ -63,4 +63,4 @@
 	npm run build
 
 ## 写在最后 ##
-> 希望在半年后，我们的self-vue-sys能够成熟起来，脱掉稚嫩，迎接各种挑战，不断完善自我。
+> 希望在半年后，我们的self-vue-sys能够成熟起来，脱掉稚嫩，迎接各种挑战，不断完善自我，一路感恩！
