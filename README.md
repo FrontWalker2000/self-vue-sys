@@ -2,12 +2,12 @@
 > 目前版本属于简易版，适合初学者，我会逐渐改写里面的组件/插件/类库，大佬请绕道；目前每周正以10次commit，完善加强。
 
 > <a>前端代码</a> ｜ <a href="https://github.com/FrontWalker2000/node-sys" alt="nodejs+mysql">服务端（nodejs）代码</a>
-# 初衷及愿景
+# 满足
   > - [x] 零成本、易上手、快且高效贴合
   > - [x] 希望以此项目做二次开发，插件、组件，模块任意搭配，完成合乎您心意的可视化/后台/管理系统/桌面应用
   > - [x] 能够零成本使用，加上视频观看，满足日常企业级二次开发
   > - [x] 能够建立各自的前后端项目能力
-# 视频教程
+# 视频
 <a href="https://www.zhisheji.com/yuanchuang/1568437.html" target="_blank" alt="nodejs+mysql">初识self-vue-sys（1期）</a> |
 <a href="https://www.zhisheji.com/yuanchuang/1571418.html" target="_blank" alt="nodejs+mysql">全局插件编写01（plugin）</a> |
 <a href="https://www.zhisheji.com/yuanchuang/1571418.html" target="_blank" alt="nodejs+mysql">全局插件编写02（plugin）</a>
@@ -18,7 +18,7 @@
 <img width="80%" src="https://raw.githubusercontent.com/FrontWalker2000/self-vue-sys/master/src/assets/images/dis_1.jpg">
 <img width="80%" src="https://raw.githubusercontent.com/FrontWalker2000/self-vue-sys/master/src/assets/images/self-vue-sys.png">
 
-# 准备工作
+# 准备
 > 需在本地安装 Node.js
 
 ## 功能 ##
